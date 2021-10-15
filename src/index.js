@@ -2,12 +2,9 @@ import React from "react";
 import ReactDOM from 'react-dom';
 
 
-
-
-
-ReactDOM.render (
-  <>
-    <div className="cards">
+function Card(){
+  return(
+<div className="cards">
       <div className="card">
         <img src="https://theroswellsting.com/wp-content/uploads/2019/09/dark.jpg" alt="mypic" className="card_img"/>
       </div>
@@ -19,6 +16,15 @@ ReactDOM.render (
         </a>
       </div>
     </div>
+  )
+}
+
+
+ReactDOM.render (
+  <>
+    <Card/>
+    <Card/>
+    <Card/>
   </>,
 document.getElementById("root")
 
