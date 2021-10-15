@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from 'react-dom';
 import Card from './Card';
 import "./index.css";
+import Sdata from './Sdata';
 
 
 ReactDOM.render (
@@ -12,26 +13,26 @@ ReactDOM.render (
     
     <Card
     
-    imgscr="https://theroswellsting.com/wp-content/uploads/2019/09/dark.jpg"
-    sname="Dark"
-    title="Netflix orignal Series"
-    links="https://www.netflix.com/in/title/80100172"
+    imgscr={Sdata[0].imgscr}
+    sname={Sdata[0].sname}
+    title={Sdata[0].title}
+    links={Sdata[0].links}
     />
 
     <Card
   
-    imgscr="https://m.media-amazon.com/images/M/MV5BNGQxMDcyOTEtZWZkNi00NzgwLWEzNjQtZmFhMGY5ZGRlMTdiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
-    sname="Extracurricular"
-    title="Netflix orignal Series"
-    links="https://www.netflix.com/in/title/80100172"
+  imgscr={Sdata[1].imgscr}
+    sname={Sdata[1].sname}
+    title={Sdata[1].title}
+    links={Sdata[1].links}
     />
 
     <Card
    
-    imgscr="https://m.media-amazon.com/images/M/MV5BN2ZmYjg1YmItNWQ4OC00YWM0LWE0ZDktYThjOTZiZjhhN2Q2XkEyXkFqcGdeQXVyNjgxNTQ3Mjk@._V1_.jpg"
-    sname="Dark"
-    title="Netflix orignal Series"
-    links="https://www.netflix.com/in/title/80100172"
+   imgscr={Sdata[3].imgscr}
+    sname={Sdata[3].sname}
+    title={Sdata[3].title}
+    links={Sdata[3].links}
     />
   </>,
 document.getElementById("root")

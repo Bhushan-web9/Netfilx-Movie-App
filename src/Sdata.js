@@ -8,7 +8,7 @@ const Sdata =[
 
    {
     sname:"Extracurricular",
-    imgscr:"https://static.wikia.nocookie.net/netflix/images/3/3f/Extracurricular_Characters_%284%29.jpg/revision/latest?cb=20200411213211.jpg",
+    imgscr:"https://m.media-amazon.com/images/M/MV5BNGQxMDcyOTEtZWZkNi00NzgwLWEzNjQtZmFhMGY5ZGRlMTdiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
     title:"Netflix orignal Series",
     links:"https://www.netflix.com/in/title/80990668",
    }, 
