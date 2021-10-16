@@ -8,7 +8,7 @@ function Card(props){
         </div>
         <div className="card_info">
           <span className="card_category">{props.title}</span>
-          <h3 className="card|_title">{props.sname}</h3>
+          <h3 className="card_title">{props.sname}</h3>
           <a href={props.links} target="blank" >
             <button>watch now</button>
           </a>

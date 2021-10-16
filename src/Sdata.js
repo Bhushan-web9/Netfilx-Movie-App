@@ -28,10 +28,11 @@ const Sdata =[
    }, 
 
    {
-    sname:"Dark",
-    imgscr:"",
-    title:"Amazon orignal series",
-    links:"",
+      sname:"Dark",
+      imgscr:"https://theroswellsting.com/wp-content/uploads/2019/09/dark.jpg",
+      title:"Netflix orignal Series",
+      links:"https://www.netflix.com/in/title/80100172",
+ 
    }, 
 
 
